@@ -1,23 +1,14 @@
 import './App.css'
 import AulaCard from './components/AulaCard'
+import AulasJson from './data/aulas.json'
 
 function App() {
 
   return (
     <div className="App">
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
-      <AulaCard />
+      {AulasJson.aulas.map(aula => (
+        <AulaCard key={aula.id} titulo={aula.titulo} capa={aula.capa} techs={aula.techs} />
+      ))}
     </div>
   )
 }

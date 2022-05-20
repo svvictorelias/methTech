@@ -1,20 +1,24 @@
 import React from 'react'
 import './AulaCard.css'
-import Aula1 from '../assets/aula1.webp'
 
-const AulaCard = () => {
+const AulaCard = ({ titulo, capa, techs }) => {
+  const techsArray = techs.split(',')
+  const viewArray = techsArray.slice(0,2)
+  console.log(viewArray)
   return (
-    
-      <div className="wrapper">
-        <img src={Aula1} alt="Capa" />
-        <div className="techs">
-          <h1 class='titleCard'><a href="#">Do Zero ao primeiro Emprego FrontEnd</a></h1>
-          <ul>
-            <li>Html</li>
-            <li>Css</li>
-            <li>+2</li>
-          </ul>
-        </div>
+    <div className="wrapper">
+      <img src={capa} alt="Capa" />
+      <div className="techs">
+        <h1 className="titleCard">
+          <a href="#">{titulo}</a>
+        </h1>
+        <ul>
+          {viewArray.map(viewTech=>(
+            <li>{viewTech}</li>
+          ))}
+          <li>+{techsArray.length}</li>
+        </ul>
+      </div>
     </div>
   )
 }

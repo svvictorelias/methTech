@@ -1,0 +1,22 @@
+{
+  "aulas":[
+    {
+      "id": 1,
+      "titulo": "Do Zero ao primeiro Emprego FrontEnd",
+      "capa": "https://i.ytimg.com/vi/Szv-gA5Aejg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByJv6YPkpMXEKkOULcjv-54JqAQw",
+      "techs": "html,css,tech,teste,chs"
+    },
+    {
+      "id": 2,
+      "titulo": "O que um Dev Junior precisa saber",
+      "capa": "https://i.ytimg.com/vi/oJlY11LpNvY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUz79CPCSDMxvHswI7JbyhGZ8KlA",
+      "techs": "html,Javascript"
+    },
+    {
+      "id": 3,
+      "titulo": "Crie uma Calculadora com HTML CSS e JS",
+      "capa": "https://i.ytimg.com/vi/KCfaPZ2t2yA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJVaPd3BHG8jNocpZ4KmgroBEU_Q",
+      "techs": "html,css,Javascript"
+    }
+  ]
+}
