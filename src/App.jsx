@@ -1,20 +1,14 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
-import AulaCard from './components/AulaCard'
-import AulasJson from './data/aulas.json'
+import Routes from './routes'
 
 function App() {
   return (
-    <div className="App">
-      {AulasJson.aulas.map(aula => (
-        <AulaCard
-          key={aula.id}
-          titulo={aula.titulo}
-          capa={aula.capa}
-          techs={aula.techs}
-          urlVideo={aula.url}
-        />
-      ))}
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes />
+      </div>
+    </BrowserRouter>
   )
 }
 
