@@ -2,7 +2,7 @@ html {
   background-color: #43237e;
   color: white;
 }
-a{
+a {
   color: white;
 }
 .wrapper {
@@ -22,14 +22,14 @@ a{
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   border-bottom: 4px solid gray;
-  max-width: 100%;
+  width: 100%;
 }
-.titleCard{
+.titleCard {
   margin: 0.5rem 0rem;
 }
 .techs {
   width: 100%;
-  padding-left:2rem;
+  padding-left: 2rem;
 }
 
 .techs ul {
