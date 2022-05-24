@@ -6,13 +6,13 @@ import AulasJson from './data/aulas.json'
 export default function MainRoutes() {
   let navigate = useNavigate(); 
   const routeChange = () =>{ 
-    let path = '/teste'
+    let path = '/aulas'
     navigate(path)
   }
   return (
     <Routes>
       <Route
-        path="teste"
+        path="aulas"
         element={AulasJson.aulas.map(aula => (
           <AulaCard
             key={aula.id}
